@@ -1,12 +1,17 @@
 {
-  "name": "hapi-bull",
-  "version": "1.0.0",
+  "name": "@afolabiabass/hapi-bull",
+  "version": "0.1.0",
   "description": "Hapi Plugin to handle Bull connection and setup",
+  "author": "Afolabi Abass",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/afolabiabass/hapi-bull.git"
   },
+  "bugs": {
+    "url": "https://github.com/afolabiabass/hapi-bull/issues"
+  },
+  "homepage": "https://github.com/afolabiabass/hapi-bull#readme",
   "keywords": [
     "hapi",
     "plugin",
@@ -16,15 +21,13 @@
   "engines": {
     "node": ">=8.9.0"
   },
-  "author": "Afolabi Abass",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/afolabiabass/hapi-bull/issues"
-  },
-  "homepage": "https://github.com/afolabiabass/hapi-bull#readme",
-  "private": false,
   "dependencies": {
     "bull": "^4.4.0",
     "joi": "^17.6.0"
-  }
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "private": false
 }
